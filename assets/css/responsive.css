@@ -89,7 +89,7 @@
     bottom: -17px;
   }
   .sm-frame .fe--5 {
-    bottom: -125px;
+    bottom: -80px;
     height: 152px;
     -o-object-fit: fill;
        object-fit: fill;
@@ -145,7 +145,7 @@
   .sm-frame--06 .vp-view {
     position: absolute;
     z-index: 1;
-    top: 21%;
+    top: 24%;
     left: 50%;
     width: 75%;
     -webkit-transform: translate(-50%, -50%);
@@ -186,7 +186,7 @@
   }
   .mobile-footer .foot-top {
     position: absolute;
-    top: -58px;
+    top: -33px;
     z-index: 20;
   }
   .mobile-footer .footer-opt {
@@ -350,7 +350,7 @@
 
 #sm_f7_btn_ritual {
   position: absolute;
-  bottom: 7%;
+  bottom: 6%;
   width: 48%;
   display: block;
   left: 50%;
@@ -382,7 +382,7 @@
 }
 
 .sm-f7-glow-prg.sm-ritual-started {
-  height: 432px;
+  height: 412px;
 }
 
 .mobile-footer .foot-links {
