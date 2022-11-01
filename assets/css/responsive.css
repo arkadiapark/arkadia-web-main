@@ -90,6 +90,9 @@
   }
   .sm-frame .fe--5 {
     bottom: -125px;
+    height: 152px;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   .sm-frame--01 .logo-text-sm {
     position: absolute;
@@ -267,6 +270,21 @@
   }
 }
 
+.sf-img-05-1 {
+  -webkit-animation: floatBaloons_2 28s infinite;
+          animation: floatBaloons_2 28s infinite;
+}
+
+.sf-img-05-2 {
+  -webkit-animation: floatBaloons 18s infinite;
+          animation: floatBaloons 18s infinite;
+}
+
+.sf-img-05-3 {
+  -webkit-animation: floatBaloons_2 15s infinite;
+          animation: floatBaloons_2 15s infinite;
+}
+
 .f6_info_view {
   display: block;
   position: absolute;
@@ -332,9 +350,39 @@
 
 #sm_f7_btn_ritual {
   position: absolute;
+  bottom: 7%;
+  width: 48%;
+  display: block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: transparent;
+  border: none;
+}
+
+#sm_f7_btn_ritual:active {
+  scale: 0.93;
+}
+
+.sm-f7-glow-prg {
+  width: 57%;
+  margin: 0 auto;
+  height: 0;
+  background: #e7ff515e;
+  -webkit-filter: blur(42px);
+          filter: blur(42px);
+  position: absolute;
   bottom: 0;
-  height: 30%;
-  width: 100%;
+  display: block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: height 5s ease;
+  transition: height 5s ease;
+}
+
+.sm-f7-glow-prg.sm-ritual-started {
+  height: 432px;
 }
 
 .mobile-footer .foot-links {

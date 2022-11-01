@@ -90,6 +90,8 @@
     }
     .fe--5 {
       bottom: -125px;
+      height: 152px;
+      object-fit: fill;
     }
     &--01 {
       .logo-text-sm {
@@ -272,6 +274,19 @@
 }
 
 
+//ballon sec 5
+
+.sf-img-05-1 {
+  animation: floatBaloons_2 28s infinite;
+}
+.sf-img-05-2 {
+  animation: floatBaloons 18s infinite;
+}
+.sf-img-05-3 {
+  animation: floatBaloons_2 15s infinite;
+}
+
+
 
 //mobile coaster guide
 
@@ -325,11 +340,38 @@
 
 #sm_f7_btn_ritual {
   position: absolute;
-  bottom: 0;
-  height: 30%;
-  width: 100%;
+  bottom: 7%;
+  width: 48%;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  border: none;
+  &:active {
+    scale: 0.93;
+  }
 }
 
+.sm-f7-glow-prg {
+  width: 57%;
+  margin: 0 auto;
+
+  height: 0;
+  background: #e7ff515e;
+  filter: blur(42px);
+
+  position: absolute;
+  bottom: 0;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: height 5s ease;
+
+}
+
+.sm-f7-glow-prg.sm-ritual-started {
+  height: 432px;
+}
 
 .mobile-footer {
   .foot-links {
