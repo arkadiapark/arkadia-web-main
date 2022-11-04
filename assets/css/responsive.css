@@ -166,6 +166,9 @@
   .sm-frame--06 .vp-view button img {
     width: 100%;
   }
+  .sm-frame--07 {
+    min-height: 845px;
+  }
   .sm-frame--07 .sm-f7-bottom {
     position: absolute;
     bottom: -62px;
@@ -179,6 +182,7 @@
   .mobile-footer {
     position: relative;
     height: 100vh;
+    min-height: 920px;
   }
   .mobile-footer img {
     width: 100%;
@@ -350,7 +354,7 @@
 
 #sm_f7_btn_ritual {
   position: absolute;
-  bottom: 6%;
+  bottom: 9%;
   width: 48%;
   display: block;
   left: 50%;
