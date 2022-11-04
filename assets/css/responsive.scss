@@ -78,7 +78,7 @@
       bottom: -29px;
     }
     .fe--2 {
-      bottom: -94px;
+      bottom: -85px;
       object-fit: none;
       scale: 1.1;
     }
@@ -96,10 +96,10 @@
     &--01 {
       .logo-text-sm {
         position: absolute;
-        max-width: 370px;
+        max-width: 315px;
         z-index: 1;
         left: 50%;
-        top: 100px;
+        top: 72px;
         transform: translate(-50%, 0);
       }
       .sm-f1-space-ship {
@@ -180,8 +180,9 @@
 
       .sm-f7-top {
         position: absolute;
-        top: -64px;
-        width: 100%;
+        top: -52px;
+        width: 103%;
+        left: -6px;
       }
 
     }
@@ -198,7 +199,7 @@
     }
     .foot-top {
       position: absolute;
-      top: -33px;
+      top: -50px;
       z-index: 20;
     }
     .footer-opt {
@@ -348,7 +349,7 @@
   transform: translateX(-50%);
   background: transparent;
   border: none;
-  &:active {
+  &:hover {
     scale: 0.93;
   }
 }
