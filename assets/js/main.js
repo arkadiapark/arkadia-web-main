@@ -9,6 +9,11 @@ window.addEventListener('load', () => {
 
 })
 
+setTimeout(function () {
+  //Insert code here. Here is an example using discord.js
+  laoder.classList.add('hide')
+}, 6000);
+
 const playBgTheme = () => {
   arkadia_audio.volume = 0.08
   arkadia_audio.play()
