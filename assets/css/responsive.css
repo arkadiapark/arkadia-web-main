@@ -363,9 +363,10 @@
           transform: translateX(-50%);
   background: transparent;
   border: none;
+  scale: 1;
 }
 
-#sm_f7_btn_ritual:hover {
+#sm_f7_btn_ritual:active {
   scale: 0.93;
 }
 

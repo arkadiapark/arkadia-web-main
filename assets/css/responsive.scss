@@ -349,7 +349,9 @@
   transform: translateX(-50%);
   background: transparent;
   border: none;
-  &:hover {
+  scale: 1;
+
+  &:active {
     scale: 0.93;
   }
 }
