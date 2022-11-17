@@ -77,7 +77,7 @@
     bottom: -29px;
   }
   .sm-frame .fe--2 {
-    bottom: -94px;
+    bottom: -85px;
     -o-object-fit: none;
        object-fit: none;
     scale: 1.1;
@@ -89,14 +89,17 @@
     bottom: -17px;
   }
   .sm-frame .fe--5 {
-    bottom: -125px;
+    bottom: -80px;
+    height: 152px;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   .sm-frame--01 .logo-text-sm {
     position: absolute;
-    max-width: 370px;
+    max-width: 315px;
     z-index: 1;
     left: 50%;
-    top: 100px;
+    top: 72px;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
   }
@@ -142,7 +145,7 @@
   .sm-frame--06 .vp-view {
     position: absolute;
     z-index: 1;
-    top: 21%;
+    top: 24%;
     left: 50%;
     width: 75%;
     -webkit-transform: translate(-50%, -50%);
@@ -163,6 +166,9 @@
   .sm-frame--06 .vp-view button img {
     width: 100%;
   }
+  .sm-frame--07 {
+    min-height: 845px;
+  }
   .sm-frame--07 .sm-f7-bottom {
     position: absolute;
     bottom: -62px;
@@ -170,12 +176,14 @@
   }
   .sm-frame--07 .sm-f7-top {
     position: absolute;
-    top: -64px;
-    width: 100%;
+    top: -52px;
+    width: 103%;
+    left: -6px;
   }
   .mobile-footer {
     position: relative;
     height: 100vh;
+    min-height: 920px;
   }
   .mobile-footer img {
     width: 100%;
@@ -183,7 +191,7 @@
   }
   .mobile-footer .foot-top {
     position: absolute;
-    top: -58px;
+    top: -50px;
     z-index: 20;
   }
   .mobile-footer .footer-opt {
@@ -267,6 +275,21 @@
   }
 }
 
+.sf-img-05-1 {
+  -webkit-animation: floatBaloons_2 28s infinite;
+          animation: floatBaloons_2 28s infinite;
+}
+
+.sf-img-05-2 {
+  -webkit-animation: floatBaloons 18s infinite;
+          animation: floatBaloons 18s infinite;
+}
+
+.sf-img-05-3 {
+  -webkit-animation: floatBaloons_2 15s infinite;
+          animation: floatBaloons_2 15s infinite;
+}
+
 .f6_info_view {
   display: block;
   position: absolute;
@@ -332,9 +355,39 @@
 
 #sm_f7_btn_ritual {
   position: absolute;
+  bottom: 9%;
+  width: 48%;
+  display: block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: transparent;
+  border: none;
+}
+
+#sm_f7_btn_ritual:hover {
+  scale: 0.93;
+}
+
+.sm-f7-glow-prg {
+  width: 57%;
+  margin: 0 auto;
+  height: 0;
+  background: #e7ff515e;
+  -webkit-filter: blur(42px);
+          filter: blur(42px);
+  position: absolute;
   bottom: 0;
-  height: 30%;
-  width: 100%;
+  display: block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: height 5s ease;
+  transition: height 5s ease;
+}
+
+.sm-f7-glow-prg.sm-ritual-started {
+  height: 412px;
 }
 
 .mobile-footer .foot-links {

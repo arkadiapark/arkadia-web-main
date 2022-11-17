@@ -260,7 +260,10 @@ observer.observe(sm_footer)
 //mobile ritual event
 const sf_img_07_initial = document.querySelector('.sf-img-07-initial')
 const sm_f7_btn_ritual = document.getElementById('sm_f7_btn_ritual')
+const sm_f7_glow_prg = document.querySelector('.sm-f7-glow-prg')
+
 
 sm_f7_btn_ritual.addEventListener('click', () => {
   sf_img_07_initial.classList.toggle('sm-07-started')
+  sm_f7_glow_prg.classList.toggle('sm-ritual-started')
 })
